@@ -7,32 +7,32 @@ Config = {}
 Config.checkForUpdates = true -- Check for updates?
 
 Config.Shops = {
-    ['uwucafe'] = { -- Job name
-        label = 'UwU Cafe',
+    ['test'] = { -- Job name
+        label = 'Test Cafe',
         blip = {
             enabled = true,
-            coords = vec3(-583.37, -1060.80, 22.34),
+            coords = vec3(-1191.5671, -890.1059, 13.9905),
             sprite = 279,
             color = 8,
             scale = 0.7,
-            string = 'UwU Cafe'
+            string = 'Test Cafe'
         },
         bossMenu = {
             enabled = true, -- Enable boss menu?
-            coords = vec3(-597.07, -1053.40, 22.34), -- Location of boss menu
-            string = '[E] - Access Boss Menu', -- Text UI label string
+            coords = vec3(-1193.1440, -898.6251, 13.9953), -- Location of boss menu
+            string = "[E] - Accéder au menu Patron", -- Text UI label string
             range = 3.0, -- Distance to allow access/prompt with text UI
         },
         locations = {
             stash = {
-                string = '[E] - Access Inventory',
-                coords = vec3(-588.59, -1066.42, 22.34),
+                string = "[E] - Accéder à l'inventaire",
+                coords = vec3(-1198.2637, -894.9976, 13.9953),
                 range = 3.0
             },
             shop = {
-                string = '[E] - Access Shop',
-                coords = vec3(-583.37, -1060.80, 22.34),
-                range = 4.0
+                string = '[E] - Accéder à la Boutique',
+                coords = vec3(-1193.9196, -892.9052, 13.9953),
+                range = 2.0
             }
         }
     }, -- Copy and paste this shop to create more
